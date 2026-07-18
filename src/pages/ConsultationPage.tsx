@@ -229,7 +229,7 @@ export default function ConsultationPage({ onNavigate, preselectedTier }: Consul
               Tell us about your build
             </h2>
             <p className="mt-3 text-gray-500 text-sm">
-              Fill out the form below, then proceed to the ${CONSULTATION_FEE} consultation payment.
+              Fill out the form below, then proceed to the {`${CONSULTATION_FEE}`} consultation payment.
             </p>
           </div>
 
@@ -402,7 +402,7 @@ export default function ConsultationPage({ onNavigate, preselectedTier }: Consul
                 )}
                 {(status === "idle" || status === "error") && (
                   <>
-                    Proceed to ${CONSULTATION_FEE} Consultation Payment
+                    Proceed to {`${CONSULTATION_FEE}`} Consultation Payment
                     <ArrowRight className="w-4 h-4" />
                   </>
                 )}
